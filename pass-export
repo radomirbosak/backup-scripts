@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+
+tar --create --verbose --gzip --directory $PWD --file pass-data.tar.gz --directory ~/.password-store .

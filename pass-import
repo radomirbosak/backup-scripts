@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+
+tar --extract --verbose --gzip --file pass-data.tar.gz ~/.password-store
